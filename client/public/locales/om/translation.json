@@ -1,0 +1,341 @@
+{
+  "dashboard": {
+    "title": "Daashboordii",
+    "loading": "Daashboordii fe'aa jira...",
+    "error": "Odeeffannoo ijoo fe'uu hin dandeenye.",
+    "sales30Days": "Gurgurtaa (Guyyaa 30)",
+    "totalProducts": "Ida'ama Oomishalee",
+    "suppliers": "Dhiyeessitoota",
+    "outOfStock": "Kan Dhume",
+    "pendingPOs": "Ajaja Bittaa Eegaa Jiru",
+    "lowOnStock": "Baay'ee Xiqqaa",
+    "expired": "Yeroon Irra Darbe",
+    "expiringSoon": "Yeroon Irra Darbuuf",
+    "welcome": "Baga nagaan dhuftan, {{name}}!",
+    "welcomeSubtitle": "Gudunfaa sochii faarmaasii keessanii kan har'aa kunooti."
+  },
+  "guest": "Keessummaa",
+  "alertsWidget": {
+    "title": "Beeksisaa fi Akeekkachiisa",
+    "unreadNotifications": "Beeksisa Hin Dubbifamne",
+    "viewAll": "Hunda Ilaali",
+    "loading": "Fe'aa jira...",
+    "noUnread": "Beeksisni hin dubbifamne hin jiru."
+  },
+  "sidebar": {
+    "dashboard": "Daashboordii",
+    "notifications": "Beeksisa",
+    "pos": "Bakka Gurgurtaa (POS)",
+    "products": "Oomishalee",
+    "suppliers": "Dhiyeessitoota",
+    "inventory": "Inveentorii",
+    "purchaseOrders": "Ajaja Bittaa (PO)",
+    "salesHistory": "Seenaa Gurgurtaa",
+    "users": "Bulchiinsa Fayyadamtootaa",
+    "activityLog": "Galmee Sochii",
+    "settings": "Qindoomina",
+    "reports": "Gabaasa",
+    "logout": "Ba'i"
+  },
+  "roles": {
+    "admin": "Bulchaa",
+    "pharmacist": "Faarmaasistii",
+    "cashier": "Kaashera"
+  },
+  "userStatuses": {
+    "active": "Si'aawaa",
+    "inactive": "Si'aawaa Miti",
+    "locked": "Cufameera",
+    "blocked": "Dhorkameera"
+  },
+  "productsPage": {
+    "title": "Kaataaloogii Oomishaa",
+    "addNew": "Oomisha Dabali",
+    "searchPlaceholder": "Maqaa, gosa ykn brandiin barbaadi...",
+    "table": {
+      "name": "Maqaa Oomishaa",
+      "brand": "Brandii",
+      "category": "Ramaddii"
+    },
+    "loading": "Oomisha fe'aa jira..."
+  },
+  "suppliersPage": {
+    "title": "Dhiyeessitoota",
+    "addNew": "Dhiyeessaa Dabali",
+    "searchPlaceholder": "Maqaa ykn nama quunnamtiin barbaadi...",
+    "loading": "Dhiyeessitoota fe'aa jira...",
+    "table": {
+      "companyName": "Maqaa Dhaabbataa",
+      "contactPerson": "Nama Quunnamtii",
+      "email": "Imeelii",
+      "phone": "Bilbila"
+    }
+  },
+  "inventoryPage": {
+    "title": "Bulchiinsa Inveentorii",
+    "addProduct": "Oomisha Dabali",
+    "searchPlaceholder": "Maqaa, ramaddii ykn brandiin barbaadi...",
+    "loading": "Inveentorii fe'aa jira...",
+    "noProductsMatch": "Oomishni ulaagaa kanaan wal gitu hin jiru.",
+    "filteringBy": "Ulaagaa:",
+    "filterProduct": "Oomisha:",
+    "filters": {
+      "out_of_stock": "Kan Dhume",
+      "low_stock": "Kan Xiqqaate"
+    },
+    "table": {
+      "productName": "Maqaa Oomishaa",
+      "brand": "Brandii",
+      "category": "Ramaddii",
+      "totalStock": "Ida'ama Kuusaa",
+      "supplier": "Dhiyeessaa"
+    },
+    "tooltips": {
+      "editProduct": "Oomisha Sirreessi"
+    },
+    "expandedRow": {
+      "loading": "Baachii fe'aa jira...",
+      "noBatches": "Baachiin oomisha kanaa hin jiru.",
+      "batchNumber": "Lak. Baachii:",
+      "purchasePrice": "Gatii Bittaa:",
+      "daysLeft_one": "Guyyaa {{count}} hafe",
+      "daysLeft_other": "Guyyoota {{count}} hafe",
+      "status": {
+        "lowStock": "Baay'ee Xiqqaa",
+        "outOfStock": "Kan Dhume",
+        "expired": "Yeroon Irra Darbe"
+      },
+      "tooltips": {
+        "adjustStock": "Kuusaa Sirreessi",
+        "deleteBatch": "Baachii Haqi"
+      }
+    }
+  },
+  "purchaseOrdersPage": {
+    "title": "Ajaja Bittaa",
+    "newPO": "Ajaja Haaraa",
+    "loading": "Ajaja fe'aa jira...",
+    "noOrdersFound": "Ajajni bittaa ulaagaa kanaan wal gitu hin jiru.",
+    "fetchError": "Odeeffannoo fiduu hin dandeenye.",
+    "stockAddedSuccess": "Kuusaan dabalameera!",
+    "confirmCancel": "Ajaja kana haqsiisuu barbaadduu?",
+    "cancelSuccess": "Ajajni bittaa haqsiifameera",
+    "filters": {
+      "allStatuses": "Haala Hunda",
+      "allTime": "Yeroo Hunda",
+      "allCreators": "Uumaa Hunda",
+      "customRange": "Yeroo Filatame",
+      "from": "Irraa:",
+      "to": "Hanga:"
+    },
+    "card": {
+      "poNumber": "PO #{{id}}",
+      "supplier": "Dhiyeessaa:",
+      "date": "Guyyaa:",
+      "lineItems": "Gosa Meeshaa:",
+      "totalUnits": "Ida'ama Baay'inaa:",
+      "totalValue": "Ida'ama Gatii:",
+      "viewDetails": "Bal'inaan Ilaali",
+      "receiveStock": "Kuusaa Galchi"
+    }
+  },
+  "userManagementPage": {
+    "title": "Bulchiinsa Fayyadamtootaa",
+    "addUser": "Fayyadamaa Dabali",
+    "searchPlaceholder": "Maqaa fayyadamaa ykn imeelii...",
+    "allRoles": "Gahee Hunda",
+    "loading": "Fayyadamtoota fe'aa jira...",
+    "fetchError": "Fayyadamtoota fiduu hin dandeenye.",
+    "verifying": "Hayyama mirkaneessaa jira...",
+    "card": {
+      "viewDetails": "Bal'inaan Ilaali",
+      "edit": "Sirreessi",
+      "block": "Dhorki",
+      "activate": "Si'aassessii",
+      "unlock": "Bani"
+    }
+  },
+  "pointOfSalePage": {
+    "title": "Bakka Gurgurtaa (POS)",
+    "searchPlaceholder": "Oomisha barbaadi...",
+    "stock": "Kuusaa:",
+    "outOfStock": "Kan Dhume",
+    "currentSale": "Gurgurtaa Ammaa",
+    "emptyCart": "Gurguruuf oomisha barbaadi.",
+    "subtotal": "Ida'ama",
+    "tax": "Taaksii (10%)",
+    "total": "Dimshaasha",
+    "sendToCashier": "Gara Kaasheraatti Ergi",
+    "sendToCashierTooltip": "Tarree kana gara kaasheraatti ergi.",
+    "completeSale": "Gurgurtaa Xumuri",
+    "checkout": "Kaffaltii",
+    "completeSaleTooltip": "Gurgurtaa kana xumuri.",
+    "prescriptionTooltip": "Maaloo ajaja ogeessa fayyaa guuti.",
+    "loadingInventory": "Inveentorii fe'aa jira...",
+    "startTyping": "Barbaaduuf barreessuu eegali...",
+    "noResults": "Oomishni hin jiru.",
+    "noStock": "Oomishni kun kuusaa keessa hin jiru."
+  },
+  "sendToCashierSuccess": "Gara kaasheraatti milkaa'inaan ergameera!",
+  "posConfirmModal": {
+    "title": "Gurgurtaa Xumuri",
+    "body": "Maaloo oomishalee kana mirkaneessi. Xumuruu dura dabaluu ykn hir'isuu dandeessa.",
+    "totalItems": "Baay'ina Oomishaa",
+    "totalAmount": "Dimshaasha Gatii",
+    "addMore": "Dabali"
+  },
+  "addPOModal": {
+    "title": "Ajaja Bittaa (PO) Haaraa Uumi",
+    "supplierLabel": "Dhiyeessaa",
+    "selectSupplier": "Dhiyeessaa Filadhu",
+    "searchLabel": "Oomishaalee Ajajatti Dabali",
+    "searchPlaceholder": "Maqaadhaan barbaadi...",
+    "table": {
+      "product": "OOMISHA",
+      "items": "BAAY'INA",
+      "cost": "GATII"
+    },
+    "total": "DIMSHAASHA",
+    "noItems": "Meeshaan homaatuu hin filatamne. Ajajuuf oomisha barbaadi.",
+    "createButton": "Ajaja Uumi (Meeshaa {{count}})",
+    "itemExists": "Oomishni kun kanaan dura filatameera.",
+    "success": "Ajajni bittaa milkaa'inaan uumameera!",
+    "error": "Ajaja bittaa uumuun hin danda'amne.",
+    "validation": {
+      "supplier": "Maaloo dhiyeessaa filadhu.",
+      "items": "Maaloo yoo xiqqaate oomisha tokko filadhu.",
+      "invalidItems": "Baay'inaa fi Gatiin 0 ol ta'uu qabu."
+    }
+  },
+  "poDetailsModal": {
+    "title": "Bal'ina Ajaja Bittaa #{{id}}",
+    "loading": "Fe'aa jira...",
+    "summary": {
+      "supplier": "Dhiyeessaa:",
+      "status": "Haala:",
+      "date": "Guyyaa:",
+      "totalValue": "Gatii Waliigalaa:"
+    },
+    "itemsHeader": "Meeshaalee Ajajaman",
+    "table": {
+      "productName": "Maqaa Oomishaa",
+      "quantity": "Baay'ina",
+      "price": "Gatii (Tokkoo)",
+      "subtotal": "Ida'ama"
+    }
+  },
+  "receivePOModal": {
+    "title": "Kuusaa Galchi - Ajaja #{{id}}",
+    "confirmButton": "Mirkaneessi & Galchi",
+    "loadingDetails": "Bal'ina ajajaa fe'aa jira...",
+    "itemName": "{{name}} (Baay'ina: {{quantity}})",
+    "batchLabel": "Lak. Baachii",
+    "expiryLabel": "Guyyaa Itti Darbu",
+    "sellingPriceLabel": "Gatii Gurgurtaa",
+    "validation": {
+      "batchRequired": "Lak. Baachii ni barbaachisa.",
+      "batchUnique": "Lak. Baachii adda ta'uu qaba.",
+      "expiryRequired": "Ni barbaachisa.",
+      "expiryInvalid": "Guyyaan itti darbu waggaa 1 booda ta'uu qaba.",
+      "priceRequired": "Gatiin ni barbaachisa.",
+      "priceInvalid": "Gatii bittaa ({{price}}) caaluu qaba."
+    }
+  },
+  "modals": {
+    "deleteProductTitle": "Oomisha Haqi",
+    "deleteProductMessage": "Dhuguma oomisha \"{{name}}\" haqsiisuu barbaadduu? Kana deebisuun hin danda'amu.",
+    "deleteSupplierTitle": "Dhiyeessaa Haqi",
+    "deleteSupplierMessage": "Dhuguma dhiyeessaa \"{{name}}\" haqsiisuu barbaadduu?"
+  },
+  "common": {
+    "loading": "Fe'aa jira...",
+    "notAvailable": "Hin Jiru",
+    "edit": "Sirreessi",
+    "delete": "Haqi",
+    "actions": "Tarkaanfii",
+    "id": "ID",
+    "cancel": "Haqi",
+    "confirm": "Mirkaneessi",
+    "save": "Seevii Godhi",
+    "saving": "Seevii godhaa jira...",
+    "saveChanges": "Jijjiirama Seevii Godhi",
+    "close": "Cufi",
+    "processing": "Hojjechaa jira...",
+    "backToLogin": "Gara Login Deebi'i"
+  },
+  "notifications": {
+  "expired": "{{name}} (Batch: {{batch}}) yeroon irra darbeera.",
+  "expiringSoon": "{{name}} (Batch: {{batch}}) guyyaa {{date}} yeroon irra darba.",
+  "outOfStock": "{{name}} guutummaa guutuutti dhumeera!",
+  "lowStock": "{{name}} (Batch: {{batch}}) kuusaan isaa xiqqaateera ({{count}} hafe).",
+  "deletingProduct": "Oomisha haqaa jira...",
+  "productDeletedSuccess": "Oomishni milkaa'inaan haqameera.",
+  "productDeleteError": "Oomisha haquun hin danda'amne.",
+  "savingNewProduct": "Oomisha haaraa seevii godhaa jira...",
+  "productAddedSuccess": "Oomishni kaataaloogiitti dabalameera!",
+  "productCreateError": "Oomisha uumuun hin danda'amne.",
+  "updatingProduct": "Oomisha haaromsaa jira...",
+  "productUpdateSuccess": "Oomishni milkaa'inaan haaromeera!",
+  "productUpdateError": "Oomisha haaromsuun hin danda'amne.",
+  "stockAdjustError": "Kuusaa sirreessuun hin danda'amne.",
+  "addStockError": "Kuusaa dabaluun hin danda'amne.",
+  "loadDataError": "Odeeffannoo barbaachisaa fe'uun hin danda'amne.",
+  "poCreateErrorNoSupplier": "Maaloo dhiyeessaa filadhu.",
+  "poCreateErrorNoItems": "Maaloo yoo xiqqaate oomisha tokko ajajatti dabali.",
+  "poCreateErrorInvalidItem": "'{{name}}' baay'inaa fi gatii sirrii qabaachuu qaba.",
+  "poCreating": "Ajaja Bittaa uumaa jira...",
+  "poCreateSuccess": "Ajajni Bittaa milkaa'inaan uumameera!",
+  "poCreateError": "Ajaja Bittaa uumuun hin danda'amne.",
+  "poDetailsError": "Bal'ina Ajaja Bittaa fiduun hin danda'amne.",
+  "formErrors": "Maaloo erguu kee dura dogoggora jiru sirreessi.",
+  "receivingStock": "Kuusaa fuudhaa jira...",
+  "stockReceiveSuccess": "Kuusaan milkaa'inaan fudhatameera!",
+  "stockReceiveError": "Adeemsa fudhannaa raawwachuun hin danda'amne.",
+  "userStatusUpdating": "Haala {{username}} haaromsaa jira...",
+  "userStatusUpdateSuccess": "Haalli fayyadamaa haaromeera.",
+  "userStatusUpdateError": "Haala haaromsuun hin danda'amne.",
+  "userCreateError": "Fayyadamaa uumuun hin danda'amne.",
+  "userUpdateError": "Fayyadamaa haaromsuun hin danda'amne.",
+  "userSelfStatusError": "Bulchaan haala ofii isaanii jijjiiruu hin danda'an.",
+  "itemOutOfStock": "Oomishni kun dhumeera.",
+  "stockLimitError": "Dabaluun hin danda'amu. {{quantity}} qofatu kuusaa keessa jira.",
+  "quantityLimitError": "Baay'ina kuusaa keessa jiru ({{quantity}}) caalu galchuun hin danda'amu.",
+  "saleFailed": "Gurgurtaan hin milkoofne.",
+  "sendingToCashier": "Gara kaasheraatti ergaa jira...",
+  "sendToCashierSuccess": "Tarreen milkaa'inaan gara kaasheraatti ergameera!",
+  "sendToCashierError": "Tarree erguun hin danda'amne.",
+  "messages": {
+    "expired": "{{name}} (Batch: {{batch}}) yeroon irra darbeera.",
+    "expiringSoon": "{{name}} (Batch: {{batch}}) guyyaa {{date}} yeroon irra darba.",
+    "outOfStock": "{{name}} guutummaa guutuutti dhumeera!",
+    "lowStock": "{{name}} (Batch: {{batch}}) kuusaan isaa xiqqaateera ({{count}} hafe)."
+  }
+},
+  "activityLogActions": {
+    "user_login": "Fayyadamaan Seene",
+    "sale_completed": "Gurgurtaa Xumurame",
+    "user_created": "Fayyadamaan Uumame",
+    "create_po": "Ajajni Uumame",
+    "edit_po": "Ajajni Sirreeffame",
+    "cancel_po": "Ajajni Haqame",
+    "delete_po": "Ajajni Badu",
+    "receive_po": "Kuusaan Galame",
+    "product_created": "Oomishni Uumame",
+    "stock_adjustment": "Kuusaan Sirreeffame"
+  },
+  "categories": {
+    "Analgesics": "Qoricha Dhukkubbii",
+    "Antacids": "Qoricha Garaa",
+    "Antihistamines": "Qoricha Alarjii",
+    "Antibiotics": "Antibiotics",
+    "ColdAndFlu": "Qoricha Utaa",
+    "Vitamins": "Viitaaminii",
+    "FirstAid": "Gargaarsa Jalqabaa",
+    "Painkiller": "Qoricha Dhukkubbii",
+    "Supplements": "Dabalata Nyaataa",
+    "Uncategorized": "Kan Hin Ramadamne"
+  },
+  "formValidation": {
+    "required": "Maaloo bakka kana guuti"
+  }
+}

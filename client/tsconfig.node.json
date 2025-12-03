@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "composite": true, /* <--- This line fixes the "must have setting 'composite': true" error */
+    "skipLibCheck": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["vite.config.ts"]
+}

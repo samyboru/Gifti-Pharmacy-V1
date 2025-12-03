@@ -1,0 +1,680 @@
+{
+  "dashboard": {
+    "title": "Dashboard",
+    "loading": "Loading dashboard...",
+    "error": "Could not load main statistics.",
+    "sales30Days": "Sales (30 Days)",
+    "totalProducts": "Total Products",
+    "suppliers": "Suppliers",
+    "outOfStock": "Out of Stock",
+    "pendingPOs": "Pending POs",
+    "lowOnStock": "Low on Stock",
+    "expired": "Expired Products",
+    "expiringSoon": "Expiring Soon",
+    "welcome": "Welcome back, {{name}}!",
+    "welcomeSubtitle": "Here is a summary of your pharmacy's activity today."
+  },
+  "guest": "Guest",
+  "alertsWidget": {
+    "title": "Notifications & Alerts",
+    "unreadNotifications": "Unread Notifications",
+    "viewAll": "View All",
+    "loading": "Loading...",
+    "noUnread": "No unread notifications."
+  },
+  "sidebar": {
+    "dashboard": "Dashboard",
+    "notifications": "Notifications",
+    "pos": "Point of Sale",
+    "products": "Products",
+    "suppliers": "Suppliers",
+    "inventory": "Inventory",
+    "purchaseOrders": "Purchase Orders",
+    "salesHistory": "Sales History",
+    "users": "User Management",
+    "activityLog": "Activity Log",
+    "settings": "Settings",
+    "reports": "Reports",
+    "logout": "Logout"
+  },
+  "roles": {
+    "admin": "Admin",
+    "pharmacist": "Pharmacist",
+    "cashier": "Cashier"
+  },
+  "userStatuses": {
+    "active": "Active",
+    "inactive": "Inactive",
+    "locked": "Locked",
+    "blocked": "Blocked"
+  },
+  "productsPage": {
+    "title": "Product Catalog",
+    "addNew": "Add Product",
+    "searchPlaceholder": "Search by name, brand, or category...",
+    "table": {
+      "name": "Product Name",
+      "brand": "Brand",
+      "category": "Category"
+    },
+    "loading": "Loading products..."
+  },
+  "suppliersPage": {
+    "title": "Suppliers",
+    "addNew": "Add Supplier",
+    "searchPlaceholder": "Search by name or contact person...",
+    "loading": "Loading suppliers...",
+    "table": {
+      "companyName": "Company Name",
+      "contactPerson": "Contact Person",
+      "email": "Email",
+      "phone": "Phone"
+    }
+  },
+  "inventoryPage": {
+    "title": "Inventory Management",
+    "addProduct": "Add Product",
+    "searchPlaceholder": "Search by name, category, or brand...",
+    "loading": "Loading inventory...",
+    "noProductsMatch": "No products match the current filters.",
+    "filteringBy": "Filtering by:",
+    "filterProduct": "Product:",
+    "filters": {
+      "out_of_stock": "Out of stock",
+      "low_stock": "Low stock"
+    },
+    "table": {
+      "productName": "Product Name",
+      "brand": "Brand",
+      "category": "Category",
+      "totalStock": "Total Stock",
+      "supplier": "Supplier"
+    },
+    "tooltips": {
+      "editProduct": "Edit Product"
+    },
+    "expandedRow": {
+      "loading": "Loading batches...",
+      "noBatches": "No individual stock batches found for this product.",
+      "batchNumber": "Batch #:",
+      "purchasePrice": "Purchase Price:",
+      "daysLeft_one": "{{count}} day left",
+      "daysLeft_other": "{{count}} days left",
+      "status": {
+        "lowStock": "Low Stock",
+        "outOfStock": "Out of Stock",
+        "expired": "Expired"
+      },
+      "tooltips": {
+        "adjustStock": "Adjust Stock",
+        "deleteBatch": "Delete Batch"
+      }
+    }
+  },
+  "purchaseOrdersPage": {
+    "title": "Purchase Orders",
+    "newPO": "New Purchase Order",
+    "loading": "Loading orders...",
+    "noOrdersFound": "No purchase orders found for the selected filters.",
+    "fetchError": "Failed to fetch page data.",
+    "stockAddedSuccess": "Stock added!",
+    "confirmCancel": "Are you sure you want to cancel this order?",
+    "cancelSuccess": "Purchase Order Cancelled",
+    "filters": {
+      "allStatuses": "All Statuses",
+      "allTime": "All Time",
+      "allCreators": "All Creators",
+      "customRange": "Custom Range",
+      "from": "From:",
+      "to": "To:"
+    },
+    "card": {
+      "poNumber": "PO #{{id}}",
+      "supplier": "Supplier:",
+      "date": "Date:",
+      "lineItems": "Line Items:",
+      "totalUnits": "Total Units:",
+      "totalValue": "Total Value:",
+      "viewDetails": "View Details",
+      "receiveStock": "Receive Stock"
+    }
+  },
+  "userManagementPage": {
+    "title": "User Management",
+    "addUser": "Add User",
+    "searchPlaceholder": "Search by username or email...",
+    "allRoles": "All Roles",
+    "loading": "Loading users...",
+    "fetchError": "Failed to fetch users.",
+    "verifying": "Verifying permissions...",
+    "card": {
+      "viewDetails": "View Details",
+      "edit": "Edit",
+      "block": "Block User",
+      "activate": "Activate User",
+      "unlock": "Unlock User"
+    }
+  },
+  "pointOfSalePage": {
+    "title": "Point of Sale",
+    "searchPlaceholder": "Search products...",
+    "stock": "Stock:",
+    "outOfStock": "Out of Stock",
+    "currentSale": "Current Sale",
+    "emptyCart": "Search for products to add to the sale.",
+    "subtotal": "Subtotal",
+    "tax": "Tax (10%)",
+    "total": "Total",
+    "sendToCashier": "Send to Cashier",
+    "sendToCashierTooltip": "Send this cart to the cashier's queue.",
+    "completeSale": "Complete Sale",
+    "checkout": "Checkout",
+    "completeSaleTooltip": "Finalize and complete this sale.",
+    "prescriptionTooltip": "Please add prescription details for all Rx items before checkout.",
+    "loadingInventory": "Loading inventory...",
+    "startTyping": "Start typing to search for products...",
+    "noResults": "No products match your search.",
+    "noStock": "There are no products currently in stock."
+  },
+  "sendToCashierSuccess": "Cart successfully sent to cashier!",
+  "posConfirmModal": {
+    "title": "Finalize Sale",
+    "body": "Review the items below. You can remove items or add more before finalizing.",
+    "totalItems": "Total Items",
+    "totalAmount": "Total Amount",
+    "addMore": "Add More Products"
+  },
+  "salesHistoryPage": {
+    "title": "Sales History",
+    "searchPlaceholder": "Search by Sale ID or Cashier...",
+    "loading": "Loading sales history...",
+    "noSales": "No sales records found.",
+    "table": {
+      "saleId": "Sale ID",
+      "dateTime": "Date & Time",
+      "cashier": "Cashier",
+      "total": "Total Amount",
+      "actions": "Actions"
+    },
+    "viewReceipt": "View Receipt"
+  },
+  "settingsPage": {
+    "title": "Settings",
+    "appearance": "Appearance",
+    "themeMode": "Theme Mode",
+    "presets": "Presets",
+    "custom": "Custom",
+    "customColors": "Custom Colors",
+    "customColorsHint": "Custom color options will be available here in a future update.",
+    "profileSettings": "Profile Settings",
+    "profileSettingsHint": "Profile and password management options will be available here in a future update.",
+    "themes": {
+      "light": "Light",
+      "dark": "Dark",
+      "oceanic": "Oceanic",
+      "sunset": "Sunset"
+    }
+  },
+  "notificationsPage": {
+    "title": "Notifications",
+    "acknowledgeAll": "Acknowledge All Unread",
+    "all": "All",
+    "unread": "Unread",
+    "read": "Read",
+    "anyTime": "Any Time",
+    "olderThan30": "Older than 30 Days",
+    "loading": "Loading...",
+    "noMatch": "No notifications match your filters.",
+    "acknowledgeTooltip": "Acknowledge",
+    "acknowledgingAll": "Acknowledging all...",
+    "acknowledgeSuccess": "All unread notifications acknowledged.",
+    "acknowledgeError": "Failed to acknowledge all.",
+    "loadError": "Failed to load notifications."
+  },
+  "activityLogPage": {
+    "title": "Activity Log",
+    "searchPlaceholder": "Search by user or details...",
+    "allUsers": "All Users",
+    "allActions": "All Actions",
+    "loading": "Loading logs...",
+    "fetchError": "Failed to fetch data. Access may be restricted.",
+    "noRecords": "No activity records found for the selected filters.",
+    "table": {
+      "timestamp": "Timestamp",
+      "user": "User",
+      "action": "Action",
+      "details": "Details"
+    },
+    "systemUser": "System"
+  },
+  "loginPage": {
+    "subtitle": "Welcome back! Please login.",
+    "usernameLabel": "Username",
+    "passwordLabel": "Password",
+    "forgotPassword": "Forgot Password?",
+    "button": "Login",
+    "loggingIn": "Logging in...",
+    "error": "Invalid username or password."
+  },
+  "resetPasswordPage": {
+    "title": "Reset Password",
+    "description": "Enter your username and choose a method to receive your one-time password (OTP).",
+    "sendVia": "Send OTP via",
+    "email": "Email",
+    "phone": "Phone",
+    "sendButton": "Send OTP",
+    "sending": "Sending...",
+    "backToLogin": "← Back to Login",
+    "error": "An error occurred."
+  },
+  "enterCodePage": {
+    "title": "Enter Code",
+    "description": "A 6-digit code has been sent to {{destination}}. Check your console for the code.",
+    "codeLabel": "Verification Code",
+    "resend": "Resend Code",
+    "resendTimer": "Resend Code ({{timer}}s)",
+    "verifyButton": "Verify",
+    "verifying": "Verifying..."
+  },
+  "createNewPasswordPage": {
+    "title": "Create New Password",
+    "description": "Your new password must be different from previous passwords.",
+    "newPasswordLabel": "New Password",
+    "confirmPasswordLabel": "Confirm New Password",
+    "resetButton": "Reset Password",
+    "errorMatch": "Passwords do not match.",
+    "errorReset": "Failed to reset password. The token may be invalid or expired.",
+    "successTitle": "Password Changed!",
+    "successMessage": "Your password has been successfully updated. You may now log in."
+  },
+  "passwordResetSuccessPage": {
+    "title": "Password Reset Successfully!",
+    "description": "You can now log in with your new password.",
+    "loginNow": "Login Now"
+  },
+  "cashierQueuePage": {
+    "title": "Cashier Queue",
+    "header": "Pending Sales",
+    "description": "Select a sale to complete the transaction.",
+    "loading": "Loading queue...",
+    "empty": "No pending sales in the queue.",
+    "fetchError": "Could not fetch pending sales.",
+    "saleCardTitle": "Pending Sale #{{id}}",
+    "sentAt": "Sent at:",
+    "total": "Total:",
+    "modal": {
+      "title": "Confirm Sale #{{id}}",
+      "body": "Confirm final transaction amount with customer.",
+      "confirmButton": "Confirm & Complete",
+      "error": "Failed to complete sale."
+    }
+  },
+  "confirmDeleteModal": {
+    "confirm": "Confirm Delete",
+    "deleting": "Deleting..."
+  },
+  "confirmLogoutModal": {
+    "title": "Confirm Logout",
+    "message": "Are you sure you want to log out of the system?"
+  },
+  "loadingScreen": {
+    "message": "Organizing medications..."
+  },
+  "addDoctorModal": {
+    "title": "Add New Doctor",
+    "fullNameLabel": "Doctor's Full Name",
+    "licenseLabel": "License Number",
+    "specialtyLabel": "Specialty",
+    "saveButton": "Save Doctor",
+    "error": "Failed to add doctor."
+  },
+  "prescriptionModal": {
+    "title": "Prescription Details for {{name}}",
+    "patientNameLabel": "Patient Name",
+    "doctorLabel": "Prescribing Doctor",
+    "doctorPlaceholder": "Select doctor...",
+    "addDoctorTooltip": "Add New Doctor",
+    "uploadLabel": "Upload Prescription Scan (Optional)",
+    "chooseFile": "Choose a file...",
+    "confirmButton": "Confirm & Add to Cart",
+    "errorLoad": "Failed to load list of doctors.",
+    "errorRequired": "Patient name and a prescribing doctor are required.",
+    "errorSave": "Failed to save prescription details."
+  },
+  "receiptModal": {
+    "titleComplete": "Sale #{{id}} Complete",
+    "titleHistory": "Receipt for Sale #{{id}}",
+    "loading": "Loading receipt...",
+    "header": "Your Health Partner",
+    "saleId": "Sale ID:",
+    "date": "Date:",
+    "cashier": "Cashier:",
+    "thankYou": "Thank you for your purchase!",
+    "print": "Print",
+    "printReceipt": "Print Receipt",
+    "startNewSale": "Start New Sale",
+    "table": {
+      "item": "Item",
+      "qty": "Qty",
+      "price": "Price",
+      "total": "Total"
+    }
+  },
+  "poStatuses": {
+    "Pending": "Pending",
+    "Received": "Received",
+    "Cancelled": "Cancelled"
+  },
+  "timeRanges": {
+    "today": "Today",
+    "last_7_days": "Last 7 Days",
+    "last_30_days": "Last 30 Days"
+  },
+  "common": {
+    "loading": "Loading...",
+    "notAvailable": "N/A",
+    "edit": "Edit",
+    "delete": "Delete",
+    "actions": "Actions",
+    "id": "ID",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "save": "Save Product",
+    "saving": "Saving...",
+    "saveChanges": "Save Changes",
+    "saveUser": "Save User",
+    "generic": "Generic",
+    "close": "Close",
+    "processing": "Processing...",
+    "backToLogin": "Back to Login"
+  },
+  "modals": {
+    "deleteProductTitle": "Delete Product",
+    "deleteProductMessage": "Are you sure you want to permanently delete \"{{name}}\"? This action cannot be undone.",
+    "deleteSupplierTitle": "Delete Supplier",
+    "deleteSupplierMessage": "Are you sure you want to permanently delete the supplier \"{{name}}\"? This action cannot be undone."
+  },
+    "notifications": {
+    "expired": "{{name}} (Batch: {{batch}}) has expired.",
+    "expiringSoon": "{{name}} (Batch: {{batch}}) expires on {{date}}.",
+    "outOfStock": "{{name}} is completely out of stock!",
+    "lowStock": "{{name}} (Batch: {{batch}}) is low on stock ({{count}} left).",
+    "deletingProduct": "Deleting product...",
+    "productDeletedSuccess": "Product deleted successfully.",
+    "productDeleteError": "Failed to delete product.",
+    "savingNewProduct": "Saving new product...",
+    "productAddedSuccess": "Product added to catalog!",
+    "productCreateError": "Failed to create product.",
+    "updatingProduct": "Updating product...",
+    "productUpdateSuccess": "Product updated successfully!",
+    "productUpdateError": "Failed to update product.",
+    "stockAdjustError": "Failed to adjust stock.",
+    "addStockError": "Failed to add stock.",
+    "loadDataError": "Failed to load necessary data.",
+    "poCreateErrorNoSupplier": "You must select a supplier.",
+    "poCreateErrorNoItems": "You must add at least one product to the order.",
+    "poCreateErrorInvalidItem": "'{{name}}' must have a positive quantity and price.",
+    "poCreating": "Creating Purchase Order...",
+    "poCreateSuccess": "Purchase Order created successfully!",
+    "poCreateError": "Failed to create Purchase Order.",
+    "poDetailsError": "Failed to fetch Purchase Order details.",
+    "formErrors": "Please correct the errors before submitting.",
+    "receivingStock": "Receiving stock...",
+    "stockReceiveSuccess": "Stock received successfully!",
+    "stockReceiveError": "Failed to process receiving.",
+    "userStatusUpdating": "Updating status for {{username}}...",
+    "userStatusUpdateSuccess": "User status updated.",
+    "userStatusUpdateError": "Failed to update status.",
+    "userCreateError": "Failed to create user.",
+    "userUpdateError": "Failed to update user.",
+    "userSelfStatusError": "Admin cannot change their own active status.",
+    "itemOutOfStock": "This item is out of stock.",
+    "stockLimitError": "Cannot add more. Only {{quantity}} available in stock.",
+    "quantityLimitError": "Cannot set quantity higher than available stock ({{quantity}}).",
+    "saleFailed": "Sale failed.",
+    "sendingToCashier": "Sending to cashier...",
+    "sendToCashierSuccess": "Cart successfully sent to cashier!",
+    "sendToCashierError": "Failed to send cart.",
+    "messages": {
+      "expired": "{{name}} (Batch: {{batch}}) has expired.",
+      "expiringSoon": "{{name}} (Batch: {{batch}}) expires on {{date}}.",
+      "outOfStock": "{{name}} is completely out of stock!",
+      "lowStock": "{{name}} (Batch: {{batch}}) is low on stock ({{count}} left)."
+    }
+  },
+  "activityLogActions": {
+    "user_login": "User Login",
+    "sale_completed": "Sale Completed",
+    "user_created": "User Created",
+    "user_updated": "User Updated",
+    "user_status_changed": "User Status Changed",
+    "password_reset": "Password Reset",
+    "create_po": "Create PO",
+    "edit_po": "Edit PO",
+    "cancel_po": "Cancel PO",
+    "delete_po": "Delete PO",
+    "receive_po": "Receive PO",
+    "password_reset_attempt_denied": "Password Reset Attempt Denied",
+    "account_locked": "Account Locked",
+    "user_deleted": "User Deleted",
+    "sale_handoff": "Sale Handoff",
+    "supplier_updated": "Supplier Updated",
+    "supplier_deleted": "Supplier Deleted",
+    "product_created": "Product Created",
+    "product_updated": "Product Updated",
+    "product_deleted": "Product Deleted",
+    "inventory_created": "Inventory Created",
+    "stock_adjustment": "Stock Adjustment",
+    "doctor_created": "Doctor Created",
+    "prescription_verified": "Prescription Verified",
+    "USER_LOGIN": "User Login",
+    "SALE_COMPLETED": "Sale Completed",
+    "USER_CREATED": "User Created",
+    "USER_UPDATED": "User Updated",
+    "USER_STATUS_CHANGED": "User Status Changed",
+    "PASSWORD_RESET": "Password Reset",
+    "CREATE_PO": "Create PO",
+    "RECEIVE_PO": "Receive PO",
+    "PASSWORD_RESET_ATTEMPT_DENIED": "Password Reset Attempt Denied",
+    "ACCOUNT_LOCKED": "Account Locked",
+    "USER_DELETED": "User Deleted",
+    "SALE_HANDOFF": "Sale Handoff",
+    "SUPPLIER_UPDATED": "Supplier Updated",
+    "SUPPLIER_DELETED": "Supplier Deleted",
+    "PRODUCT_CREATED": "Product Created",
+    "PRODUCT_UPDATED": "Product Updated",
+    "PRODUCT_DELETED": "Product Deleted",
+    "INVENTORY_CREATED": "Inventory Created",
+    "STOCK_ADJUSTMENT": "Stock Adjustment",
+    "DOCTOR_CREATED": "Doctor Created",
+    "PRESCRIPTION_VERIFIED": "Prescription Verified"
+  },
+  "activityLogDetails": {
+    "user_login": "User '{{username}}' successfully logged in.",
+    "user_created": "Created new user: {{username}}",
+    "user_updated": "Updated user: {{name}}",
+    "user_status_changed": "Set status for user '{{username}}' to '{{status}}'",
+    "sale_completed": "Completed sale #{{id}} for {{total}}",
+    "sale_handoff": "Sent cart to cashier from {{username}}",
+    "create_po": "Created PO #{{id}}",
+    "edit_po": "Edited PO #{{id}}",
+    "cancel_po": "Cancelled PO #{{id}}",
+    "delete_po": "Deleted PO #{{id}}",
+    "receive_po": "Received all items for PO #{{id}}",
+    "password_reset": "User {{username}} successfully reset their password",
+    "account_locked": "Account for user '{{username}}' was locked due to too many failed login attempts",
+    "password_reset_attempt_denied": "Denied password reset for '{{username}}' (invalid token)",
+    "product_created": "Created product: {{name}}",
+    "product_updated": "Updated product: {{name}}",
+    "product_deleted": "Deleted product: {{name}}",
+    "supplier_created": "Created supplier: {{name}}",
+    "supplier_updated": "Updated supplier: {{name}}",
+    "supplier_deleted": "Deleted supplier: {{name}}",
+    "inventory_created": "Added {{quantity}} units of '{{name}}' to inventory",
+    "stock_adjustment": "Adjusted stock for '{{name}}' from {{from}} to {{to}}. Reason: {{reason}}",
+    "doctor_created": "Created new doctor: {{name}}",
+    "prescription_verified": "Verified prescription #{{id}} for patient '{{patient}}'"
+  },
+  "addProductModal": {
+    "title": "Add New Product to Catalog",
+    "productNameLabel": "Product Name",
+    "brandLabel": "Brand",
+    "categoryLabel": "Category",
+    "categoryPlaceholder": "Select a category...",
+    "descriptionLabel": "Description",
+    "requiresPrescriptionLabel": "This product requires a prescription"
+  },
+  "addSupplierModal": {
+    "title": "Add New Supplier",
+    "nameLabel": "Supplier Name",
+    "contactPersonLabel": "Contact Person",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone"
+  },
+  "addStockModal": {
+    "title": "Add New Stock to Inventory",
+    "productLabel": "Product",
+    "stockLabel": "Stock (Packages)",
+    "sellingPriceLabel": "Selling Price (per Package)",
+    "expiryDateLabel": "Expiry Date",
+    "batchNumberLabel": "Batch Number",
+    "purchasePriceLabel": "Purchase Price (Optional)",
+    "unitsPerPackageLabel": "Units per Package (Optional)",
+    "addButton": "Add to Inventory"
+  },
+  "addPOModal": {
+    "title": "Create New Purchase Order",
+    "supplierLabel": "Supplier",
+    "selectSupplier": "Select a Supplier",
+    "searchLabel": "Add Products to Order",
+    "searchPlaceholder": "Search catalog by name...",
+    "table": {
+      "product": "PRODUCT",
+      "items": "ITEMS",
+      "cost": "COST"
+    },
+    "total": "ORDER TOTAL",
+    "noItems": "No items added yet. Search for products to build your order.",
+    "createButton": "Create PO ({{count}} items)",
+    "itemExists": "Item already added to the list.",
+    "success": "Purchase Order created successfully!",
+    "error": "Failed to create purchase order.",
+    "validation": {
+      "supplier": "Please select a supplier.",
+      "items": "Please add at least one product.",
+      "invalidItems": "Quantity and Cost must be greater than 0."
+    }
+  },
+  "addUserModal": {
+    "title": "Add New User",
+    "usernameLabel": "Username",
+    "emailLabel": "Email Address",
+    "passwordLabel": "Password",
+    "passwordHint": "A temporary password for the new user.",
+    "phoneLabel": "Phone Number",
+    "roleLabel": "Role"
+  },
+  "poDetailsModal": {
+    "title": "Details for Purchase Order #{{id}}",
+    "loading": "Loading details...",
+    "summary": {
+      "supplier": "Supplier:",
+      "status": "Status:",
+      "date": "Date:",
+      "totalValue": "Total Value:"
+    },
+    "itemsHeader": "Items in this Order",
+    "table": {
+      "productName": "Product Name",
+      "quantity": "Quantity Ordered",
+      "price": "Price per Item",
+      "subtotal": "Subtotal"
+    }
+  },
+  "receivePOModal": {
+    "title": "Receive Stock for PO #{{id}}",
+    "confirmButton": "Confirm & Add to Inventory",
+    "loadingDetails": "Loading PO details...",
+    "itemName": "{{name}} (Qty: {{quantity}})",
+    "batchLabel": "Batch Number",
+    "expiryLabel": "Expiry Date",
+    "sellingPriceLabel": "Selling Price",
+    "validation": {
+      "batchRequired": "Batch # is required.",
+      "batchUnique": "Batch # must be unique in this PO.",
+      "expiryRequired": "Required.",
+      "expiryInvalid": "Expiry must be at least 1 year from now.",
+      "priceRequired": "Required & must be positive.",
+      "priceInvalid": "Must be > purchase price ({{price}})."
+    }
+  },
+  "editProductModal": {
+    "title": "Edit Product"
+  },
+  "editSupplierModal": {
+    "title": "Edit Supplier"
+  },
+  "editUserModal": {
+    "title": "Edit User"
+  },
+  "userDetailsModal": {
+    "title": "User Details",
+    "contactInfo": "Contact Information",
+    "email": "Email",
+    "phone": "Phone",
+    "recentActivity": "Recent Activity",
+    "loading": "Loading activity...",
+    "noActivity": "No recent activity found."
+  },
+  "adjustStockModal": {
+    "title": "Adjust Stock for {{name}}",
+    "confirmButton": "Confirm Adjustment",
+    "description": "Current stock: <strong>{{quantity}}</strong> packages. Batch: {{batch}}",
+    "newQuantityLabel": "New Stock Quantity",
+    "reasonLabel": "Reason for Adjustment",
+    "reasonPlaceholder": "-- Select a reason --"
+  },
+  "reasons": {
+    "stockTake": "Stock Take Correction",
+    "damaged": "Damaged Goods",
+    "expired": "Expired Stock",
+    "other": "Other"
+  },
+  "categories": {
+    "Analgesics": "Analgesics / Painkillers",
+    "Antacids": "Antacids",
+    "Antihistamines": "Antihistamines / Allergy",
+    "ColdAndFlu": "Cold & Flu",
+    "Cough": "Cough Remedies",
+    "FirstAid": "First Aid",
+    "Laxatives": "Laxatives",
+    "Vitamins": "Vitamins",
+    "Supplements": "Supplements",
+    "Minerals": "Minerals",
+    "Antibiotics": "Antibiotics",
+    "Antivirals": "Antivirals",
+    "Antifungals": "Antifungals",
+    "Antidepressants": "Antidepressants",
+    "Antipsychotics": "Antipsychotics",
+    "Anticoagulants": "Anticoagulants",
+    "Cardiovascular": "Cardiovascular",
+    "Dermatological": "Dermatological",
+    "Endocrine": "Endocrine",
+    "Gastrointestinal": "Gastrointestinal",
+    "Hypertensives": "Anti-Hypertensives (BP)",
+    "Hypoglycemics": "Anti-Diabetic",
+    "Ophthalmics": "Ophthalmics (Eye Care)",
+    "Otic": "Otic (Ear Care)",
+    "Respiratory": "Respiratory",
+    "Sedatives": "Sedatives / Anxiolytics",
+    "Urological": "Urological",
+    "PersonalCare": "Personal Care",
+    "Herbal": "Herbal Products",
+    "Equipment": "Medical Equipment",
+    "Uncategorized": "Uncategorized",
+    "Painkiller": "Analgesics / Painkillers"
+  },
+  "formValidation": {
+    "required": "Please fill in this field."
+  }
+}

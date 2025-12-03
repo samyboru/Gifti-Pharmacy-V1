@@ -1,0 +1,414 @@
+{
+  "dashboard": {
+    "title": "ዳሽቦርድ",
+    "loading": "ዳሽቦርድ በመጫን ላይ...",
+    "error": "ዋና መረጃዎችን መጫን አልተቻለም።",
+    "sales30Days": "ሽያጭ (30 ቀናት)",
+    "totalProducts": "ጠቅላላ ምርቶች",
+    "suppliers": "አቅራቢዎች",
+    "outOfStock": "ያለቀባቸው",
+    "pendingPOs": "በመጠባበቅ ላይ ያሉ POs",
+    "lowOnStock": "ክምችት ያነሰባቸው",
+    "expired": "ጊዜያቸው ያለፈባቸው",
+    "expiringSoon": "ጊዜያቸው ሊያልቅ የተቃረበ",
+    "welcome": "እንኳን በደህና መጡ፣ {{name}}!",
+    "welcomeSubtitle": "የፋርማሲዎ የእለት እንቅስቃሴ ማጠቃለያ ይኸውና።"
+  },
+  "guest": "እንግዳ",
+  "alertsWidget": {
+    "title": "ማስታወቂያዎች እና ማስጠንቀቂያዎች",
+    "unreadNotifications": "ያልተነበቡ ማስታወቂያዎች",
+    "viewAll": "ሁሉንም ይመልከቱ",
+    "loading": "በመጫን ላይ...",
+    "noUnread": "ያልተነበበ ማስታወቂያ የለም።"
+  },
+  "sidebar": {
+    "dashboard": "ዳሽቦርድ",
+    "notifications": "ማስታወቂያዎች",
+    "pos": "የሽያጭ መመዝገቢያ (POS)",
+    "products": "ምርቶች",
+    "suppliers": "አቅራቢዎች",
+    "inventory": "ክምችት (Inventory)",
+    "purchaseOrders": "የግዢ ትዕዛዞች (POs)",
+    "salesHistory": "የሽያጭ ታሪክ",
+    "users": "የተጠቃሚዎች አስተዳደር",
+    "activityLog": "የእንቅስቃሴ ምዝግብ",
+    "settings": "ቅንብሮች",
+    "reports": "ሪፖርቶች",
+    "logout": "ውጣ"
+  },
+  "roles": {
+    "admin": "አስተዳዳሪ",
+    "pharmacist": "ፋርማሲስት",
+    "cashier": "ገንዘብ ተቀባይ"
+  },
+  "userStatuses": {
+    "active": "ንቁ",
+    "inactive": "ቦዘን",
+    "locked": "የተቆለፈ",
+    "blocked": "ታግዶል"
+  },
+  "productsPage": {
+    "title": "የምርት ዝርዝር",
+    "addNew": "ምርት አክል",
+    "searchPlaceholder": "በስም፣ በብራንድ ወይም በምድብ ይፈልጉ...",
+    "table": {
+      "name": "የምርት ስም",
+      "brand": "ብራንድ",
+      "category": "ምድብ"
+    },
+    "loading": "ምርቶችን በመጫን ላይ..."
+  },
+  "suppliersPage": {
+    "title": "አቅራቢዎች",
+    "addNew": "አቅራቢ አክል",
+    "searchPlaceholder": "በስም ወይም በተጠሪ ሰው ይፈልጉ...",
+    "loading": "አቅራቢዎችን በመጫን ላይ...",
+    "table": {
+      "companyName": "የድርጅት ስም",
+      "contactPerson": "ተጠሪ ሰው",
+      "email": "ኢሜይል",
+      "phone": "ስልክ"
+    }
+  },
+  "inventoryPage": {
+    "title": "የክምችት አስተዳደር",
+    "addProduct": "ምርት አክል",
+    "searchPlaceholder": "በስም፣ በምድብ ወይም በብራንድ ይፈልጉ...",
+    "loading": "ክምችት በመጫን ላይ...",
+    "noProductsMatch": "ከዚህ ማጣሪያ ጋር የሚሄድ ምርት የለም።",
+    "filteringBy": "ማጣሪያ:",
+    "filterProduct": "ምርት:",
+    "filters": {
+      "out_of_stock": "ያለቀባቸው",
+      "low_stock": "ክምችት ያነሰባቸው"
+    },
+    "table": {
+      "productName": "የምርት ስም",
+      "brand": "ብራንድ",
+      "category": "ምድብ",
+      "totalStock": "ጠቅላላ ክምችት",
+      "supplier": "አቅራቢ"
+    },
+    "tooltips": {
+      "editProduct": "ምርቱን ያርትዑ"
+    },
+    "expandedRow": {
+      "loading": "ባቾችን በመጫን ላይ...",
+      "noBatches": "ለዚህ ምርት ምንም ባች አልተገኘም።",
+      "batchNumber": "ባች ቁጥር #:",
+      "purchasePrice": "የግዢ ዋጋ:",
+      "daysLeft_one": "{{count}} ቀን ቀረው",
+      "daysLeft_other": "{{count}} ቀናት ቀሩት",
+      "status": {
+        "lowStock": "ክምችት ያነሰበት",
+        "outOfStock": "ያለቀበት",
+        "expired": "ጊዜው ያለፈበት"
+      },
+      "tooltips": {
+        "adjustStock": "ክምችት ያስተካክሉ",
+        "deleteBatch": "ባች ሰርዝ"
+      }
+    }
+  },
+  "purchaseOrdersPage": {
+    "title": "የግዢ ትዕዛዞች",
+    "newPO": "አዲስ ትዕዛዝ",
+    "loading": "ትዕዛዞችን በመጫን ላይ...",
+    "noOrdersFound": "ምንም የግዢ ትዕዛዝ አልተገኘም።",
+    "fetchError": "መረጃውን ማምጣት አልተቻለም።",
+    "stockAddedSuccess": "ክምችት ታክሏል!",
+    "confirmCancel": "ይህንን ትዕዛዝ መሰረዝ ይፈልጋሉ?",
+    "cancelSuccess": "የግዢ ትዕዛዙ ተሰርዟል",
+    "filters": {
+      "allStatuses": "ሁሉም ሁኔታዎች",
+      "allTime": "ምንጊዜም",
+      "allCreators": "ሁሉም ፈጣሪዎች",
+      "customRange": "ብጁ ክልል",
+      "from": "ከ:",
+      "to": "እስከ:"
+    },
+    "card": {
+      "poNumber": "PO #{{id}}",
+      "supplier": "አቅራቢ:",
+      "date": "ቀን:",
+      "lineItems": "የእቃዎች አይነት:",
+      "totalUnits": "ጠቅላላ ብዛት:",
+      "totalValue": "ጠቅላላ ዋጋ:",
+      "viewDetails": "ዝርዝር ይመልከቱ",
+      "receiveStock": "ክምችት ተቀበል"
+    }
+  },
+  "userManagementPage": {
+    "title": "የተጠቃሚዎች አስተዳደር",
+    "addUser": "ተጠቃሚ አክል",
+    "searchPlaceholder": "በመጠቀሚያ ስም ወይም ኢሜይል ይፈልጉ...",
+    "allRoles": "ሁሉም ሚናዎች",
+    "loading": "ተጠቃሚዎችን በመጫን ላይ...",
+    "fetchError": "ተጠቃሚዎችን ማምጣት አልተቻለም።",
+    "verifying": "ፈቃዶችን በማረጋገጥ ላይ...",
+    "card": {
+      "viewDetails": "ዝርዝር ይመልከቱ",
+      "edit": "ያርትዑ",
+      "block": "ተጠቃሚውን እገድ",
+      "activate": "ተጠቃሚውን አንቃ",
+      "unlock": "ተጠቃሚውን ክፈት"
+    }
+  },
+  "pointOfSalePage": {
+    "title": "የሽያጭ መመዝገቢያ",
+    "searchPlaceholder": "ምርቶችን ይፈልጉ...",
+    "stock": "ክምችት:",
+    "outOfStock": "ያለቀ",
+    "currentSale": "የአሁኑ ሽያጭ",
+    "emptyCart": "ወደ ሽያጭ ለመጨመር ምርቶችን ይፈልጉ።",
+    "subtotal": "ድምር",
+    "tax": "ታክስ (10%)",
+    "total": "ጠቅላላ",
+    "sendToCashier": "ወደ ገንዘብ ተቀባይ ላክ",
+    "sendToCashierTooltip": "ይህንን ቅርጫት ወደ ገንዘብ ተቀባይ ተራ ላክ።",
+    "completeSale": "ሽያጭ አጠናቅ",
+    "checkout": "ክፍያ ፈጽም",
+    "completeSaleTooltip": "ይህንን ሽያጭ ጨርስ።",
+    "prescriptionTooltip": "እባክዎ ለሁሉም የሐኪም ማዘዣ የሚያስፈልጋቸው መድሃኒቶች መረጃ ያስገቡ።",
+    "loadingInventory": "ክምችት በመጫን ላይ...",
+    "startTyping": "ምርቶችን ለመፈለግ መተየብ ይጀምሩ...",
+    "noResults": "ምንም ምርት አልተገኘም።",
+    "noStock": "በአሁኑ ሰዓት ምንም ምርት በክምችት የለም።"
+  },
+  "sendToCashierSuccess": "ቅርጫቱ ወደ ገንዘብ ተቀባይ በተሳካ ሁኔታ ተልኳል!",
+  "posConfirmModal": {
+    "title": "ሽያጭ አጠናቅ",
+    "body": "እባክዎ ከዚህ በታች ያሉትን እቃዎች ይከልሱ። ከመጨረስዎ በፊት እቃዎችን መቀነስ ወይም መጨመር ይችላሉ።",
+    "totalItems": "ጠቅላላ እቃዎች",
+    "totalAmount": "ጠቅላላ ዋጋ",
+    "addMore": "ተጨማሪ ምርቶችን አክል"
+  },
+  "salesHistoryPage": {
+    "title": "የሽያጭ ታሪክ",
+    "searchPlaceholder": "በሽያጭ መታወቂያ ወይም ገንዘብ ተቀባይ ይፈልጉ...",
+    "loading": "የሽያጭ ታሪክ በመጫን ላይ...",
+    "noSales": "ምንም የሽያጭ መዝገብ አልተገኘም።",
+    "table": {
+      "saleId": "መታወቂያ",
+      "dateTime": "ቀን እና ሰዓት",
+      "cashier": "ገንዘብ ተቀባይ",
+      "total": "ጠቅላላ መጠን",
+      "actions": "ድርጊቶች"
+    },
+    "viewReceipt": "ደረሰኝ ይመልከቱ"
+  },
+  "settingsPage": {
+    "title": "ቅንብሮች",
+    "appearance": "ገጽታ",
+    "themeMode": "የገጽታ ሁኔታ",
+    "presets": "ቅድመ-ቅንብሮች",
+    "custom": "ብጁ",
+    "customColors": "ብጁ ቀለሞች",
+    "customColorsHint": "የብጁ ቀለም አማራጮች ወደፊት በሚመጣው ማሻሻያ ይቀርባሉ።",
+    "profileSettings": "የመገለጫ ቅንብሮች",
+    "profileSettingsHint": "የመገለጫ እና የይለፍ ቃል አስተዳደር አማራጮች ወደፊት በሚመጣው ማሻሻያ ይቀርባሉ።",
+    "themes": {
+      "light": "ቀላል",
+      "dark": "ጨለማ",
+      "oceanic": "ውቅያኖስ",
+      "sunset": "ፀሐይ ስትጠልቅ"
+    }
+  },
+  "notificationsPage": {
+    "title": "ማስታወቂያዎች",
+    "acknowledgeAll": "ሁሉንም ያልተነበቡ እውቅና ይስጡ",
+    "all": "ሁሉም",
+    "unread": "ያልተነበቡ",
+    "read": "የተነበቡ",
+    "anyTime": "ማንኛውም ጊዜ",
+    "olderThan30": "ከ30 ቀናት በላይ",
+    "loading": "በመጫን ላይ...",
+    "noMatch": "ምንም ማስታወቂያ አልተገኘም።",
+    "acknowledgeTooltip": "እውቅና ይስጡ",
+    "acknowledgingAll": "ሁሉንም እውቅና በመስጠት ላይ...",
+    "acknowledgeSuccess": "ሁሉም ያልተነበቡ ማስታወቂያዎች እውቅና አግኝተዋል።",
+    "acknowledgeError": "ሁሉንም እውቅና መስጠት አልተቻለም።",
+    "loadError": "ማስታወቂያዎችን መጫን አልተቻለም።"
+  },
+  "activityLogPage": {
+    "title": "የእንቅስቃሴ ምዝግብ",
+    "searchPlaceholder": "በተጠቃሚ ወይም ዝርዝር ይፈልጉ...",
+    "allUsers": "ሁሉም ተጠቃሚዎች",
+    "allActions": "ሁሉም ድርጊቶች",
+    "loading": "ምዝግብ በመጫን ላይ...",
+    "fetchError": "መረጃ ማምጣት አልተቻለም። መዳረሻ የተገደበ ሊሆን ይችላል።",
+    "noRecords": "ለተመረጡት ማጣሪያዎች ምንም የእንቅስቃሴ መዝገብ አልተገኘም።",
+    "table": {
+      "timestamp": "ጊዜ",
+      "user": "ተጠቃሚ",
+      "action": "ድርጊት",
+      "details": "ዝርዝር"
+    },
+    "systemUser": "ስርዓት"
+  },
+  "loginPage": {
+    "subtitle": "እንኳን ደህና መጡ! እባክዎ ይግቡ።",
+    "usernameLabel": "የመጠቀሚያ ስም",
+    "passwordLabel": "የይለፍ ቃል",
+    "forgotPassword": "የይለፍ ቃል ረሱ?",
+    "button": "ግባ",
+    "loggingIn": "በመግባት ላይ...",
+    "error": "የተሳሳተ የመጠቀሚያ ስም ወይም የይለፍ ቃል።"
+  },
+  "addPOModal": {
+    "title": "አዲስ የግዢ ትዕዛዝ (PO) ይፍጠሩ",
+    "supplierLabel": "አቅራቢ",
+    "selectSupplier": "አቅራቢ ይምረጡ",
+    "searchLabel": "ምርቶችን ወደ ትዕዛዝ ያክሉ",
+    "searchPlaceholder": "በስም ይፈልጉ...",
+    "table": {
+      "product": "ምርት",
+      "items": "ብዛት",
+      "cost": "ዋጋ"
+    },
+    "total": "ጠቅላላ ድምር",
+    "noItems": "እስካሁን ምንም ምርት አልተመረጠም። ለማዘዝ ምርቶችን ይፈልጉ።",
+    "createButton": "ትዕዛዝ ይፍጠሩ ({{count}} እቃዎች)",
+    "itemExists": "ይህ ምርት ከዚህ በፊት ተመርጧል።",
+    "success": "የግዢ ትዕዛዝ በተሳካ ሁኔታ ተፈጥሯል!",
+    "error": "የግዢ ትዕዛዙን መፍጠር አልተቻለም።",
+    "validation": {
+      "supplier": "እባክዎ አቅራቢ ይምረጡ።",
+      "items": "እባክዎ ቢያንስ አንድ ምርት ይምረጡ።",
+      "invalidItems": "ብዛት እና ዋጋ ከ 0 በላይ መሆን አለባቸው።"
+    }
+  },
+  "poDetailsModal": {
+    "title": "የግዢ ትዕዛዝ ዝርዝር #{{id}}",
+    "loading": "ዝርዝር በመጫን ላይ...",
+    "summary": {
+      "supplier": "አቅራቢ:",
+      "status": "ሁኔታ:",
+      "date": "ቀን:",
+      "totalValue": "ጠቅላላ ዋጋ:"
+    },
+    "itemsHeader": "የታዘዙ እቃዎች",
+    "table": {
+      "productName": "የምርት ስም",
+      "quantity": "የታዘዘ ብዛት",
+      "price": "ዋጋ (በአንድ)",
+      "subtotal": "ንዑስ ድምር"
+    }
+  },
+  "receivePOModal": {
+    "title": "ክምችት መቀበያ - ትዕዛዝ #{{id}}",
+    "confirmButton": "አረጋግጥ እና ወደ ክምችት አስገባ",
+    "loadingDetails": "ትዕዛዝ ዝርዝር በመጫን ላይ...",
+    "itemName": "{{name}} (ብዛት: {{quantity}})",
+    "batchLabel": "ባች ቁጥር",
+    "expiryLabel": "የሚያበቃበት ቀን",
+    "sellingPriceLabel": "የመሸጫ ዋጋ",
+    "validation": {
+      "batchRequired": "ባች ቁጥር ያስፈልጋል።",
+      "batchUnique": "ባች ቁጥር በዚህ ትዕዛዝ ውስጥ ልዩ መሆን አለበት።",
+      "expiryRequired": "ያስፈልጋል።",
+      "expiryInvalid": "የሚያበቃበት ቀን ቢያንስ 1 ዓመት መሆን አለበት።",
+      "priceRequired": "ዋጋ ያስፈልጋል እና አዎንታዊ መሆን አለበት።",
+      "priceInvalid": "ከግዢ ዋጋ ({{price}}) መብለጥ አለበት።"
+    }
+  },
+  "modals": {
+    "deleteProductTitle": "ምርት ሰርዝ",
+    "deleteProductMessage": "እርግጠኛ ነዎት \"{{name}}\"ን በቋሚነት መሰረዝ ይፈልጋሉ? ይህ ድርጊት ሊቀለብስ አይችልም።",
+    "deleteSupplierTitle": "አቅራቢ ሰርዝ",
+    "deleteSupplierMessage": "እርግጠኛ ነዎት አቅራቢውን \"{{name}}\" በቋሚነት መሰረዝ ይፈልጋሉ? ይህ ድርጊት ሊቀለብስ አይችልም።"
+  },
+  "common": {
+    "loading": "በመጫን ላይ...",
+    "notAvailable": "የለም",
+    "edit": "አርትዕ",
+    "delete": "ሰርዝ",
+    "actions": "ድርጊቶች",
+    "id": "መታወቂያ",
+    "cancel": "ሰርዝ",
+    "confirm": "አረጋግጥ",
+    "save": "አስቀምጥ",
+    "saving": "በማስቀመጥ ላይ...",
+    "saveChanges": "ለውጦችን አስቀምጥ",
+    "close": "ዝጋ",
+    "processing": "በማቀናበር ላይ...",
+    "backToLogin": "ወደ መግቢያ ተመለስ"
+  },
+  "notifications": {
+  "expired": "{{name}} (Batch: {{batch}}) ጊዜው አልፎበታል።",
+  "expiringSoon": "{{name}} (Batch: {{batch}}) በ {{date}} ጊዜው ያበቃል።",
+  "outOfStock": "{{name}} ሙሉ በሙሉ አልቋል!",
+  "lowStock": "{{name}} (Batch: {{batch}}) ክምችቱ አነስተኛ ነው ({{count}} ቀርቷል)።",
+  "deletingProduct": "ምርቱን በመሰረዝ ላይ...",
+  "productDeletedSuccess": "ምርቱ በተሳካ ሁኔታ ተሰርዟል።",
+  "productDeleteError": "ምርቱን መሰረዝ አልተቻለም።",
+  "savingNewProduct": "አዲስ ምርት በማስቀመጥ ላይ...",
+  "productAddedSuccess": "ምርቱ ወደ ዝርዝር ውስጥ ገብቷል!",
+  "productCreateError": "ምርቱን መፍጠር አልተቻለም።",
+  "updatingProduct": "ምርቱን በማዘመን ላይ...",
+  "productUpdateSuccess": "ምርቱ በተሳካ ሁኔታ ዘምኗል!",
+  "productUpdateError": "ምርቱን ማዘመን አልተቻለም።",
+  "stockAdjustError": "ክምችት ማስተካከል አልተቻለም።",
+  "addStockError": "ክምችት መጨመር አልተቻለም።",
+  "loadDataError": "አስፈላጊ መረጃዎችን መጫን አልተቻለም።",
+  "poCreateErrorNoSupplier": "እባክዎ አቅራቢ ይምረጡ።",
+  "poCreateErrorNoItems": "እባክዎ ቢያንስ አንድ ምርት ወደ ትዕዛዙ ያክሉ።",
+  "poCreateErrorInvalidItem": "'{{name}}' አዎንታዊ መጠን እና ዋጋ ሊኖረው ይገባል።",
+  "poCreating": "የግዢ ትዕዛዝ በመፍጠር ላይ...",
+  "poCreateSuccess": "የግዢ ትዕዛዝ በተሳካ ሁኔታ ተፈጥሯል!",
+  "poCreateError": "የግዢ ትዕዛዝ መፍጠር አልተቻለም።",
+  "poDetailsError": "የግዢ ትዕዛዝ ዝርዝሮችን ማምጣት አልተቻለም።",
+  "formErrors": "እባክዎ ከመላክዎ በፊት ስህተቶችን ያስተካክሉ።",
+  "receivingStock": "ክምችት በመቀበል ላይ...",
+  "stockReceiveSuccess": "ክምችት በተሳካ ሁኔታ ገብቷል!",
+  "stockReceiveError": "የመቀበል ሂደቱን ማከናወን አልተቻለም።",
+  "userStatusUpdating": "የ{{username}}ን ሁኔታ በማዘመን ላይ...",
+  "userStatusUpdateSuccess": "የተጠቃሚ ሁኔታ ዘምኗል።",
+  "userStatusUpdateError": "ሁኔታን ማዘመን አልተቻለም።",
+  "userCreateError": "ተጠቃሚ መፍጠር አልተቻለም።",
+  "userUpdateError": "ተጠቃሚን ማዘመን አልተቻለም።",
+  "userSelfStatusError": "አስተዳዳሪ የራሱን ሁኔታ መለወጥ አይችልም።",
+  "itemOutOfStock": "ይህ ምርት አልቋል።",
+  "stockLimitError": "መጨመር አይቻልም። {{quantity}} ብቻ በክምችት አለ።",
+  "quantityLimitError": "ካለው ክምችት ({{quantity}}) በላይ መጠን ማስገባት አይቻልም።",
+  "saleFailed": "ሽያጩ አልተሳካም።",
+  "sendingToCashier": "ወደ ገንዘብ ተቀባይ በመላክ ላይ...",
+  "sendToCashierSuccess": "ቅርጫቱ በተሳካ ሁኔታ ወደ ገንዘብ ተቀባይ ተልኳል!",
+  "sendToCashierError": "ቅርጫቱን መላክ አልተቻለም።",
+  "messages": {
+    "expired": "{{name}} (Batch: {{batch}}) ጊዜው አልፎበታል።",
+    "expiringSoon": "{{name}} (Batch: {{batch}}) በ {{date}} ጊዜው ያበቃል።",
+    "outOfStock": "{{name}} ሙሉ በሙሉ አልቋል!",
+    "lowStock": "{{name}} (Batch: {{batch}}) ክምችቱ አነስተኛ ነው ({{count}} ቀርቷል)።"
+  }
+},
+  "activityLogActions": {
+    "user_login": "ተጠቃሚ ገብቷል",
+    "sale_completed": "ሽያጭ ተጠናቅቋል",
+    "user_created": "ተጠቃሚ ተፈጥሯል",
+    "create_po": "ግዢ ትዕዛዝ ተፈጥሯል",
+    "edit_po": "ግዢ ትዕዛዝ ተስተካክሏል",
+    "cancel_po": "ግዢ ትዕዛዝ ተሰርዟል",
+    "delete_po": "ግዢ ትዕዛዝ ጠፍቷል",
+    "receive_po": "ክምችት ገብቷል",
+    "product_created": "ምርት ተፈጥሯል",
+    "product_updated": "ምርት ተስተካክሏል",
+    "stock_adjustment": "ክምችት ተስተካክሏል"
+  },
+  "categories": {
+    "Analgesics": "የሕመም ማስታገሻዎች",
+    "Antacids": "የጨጓራ መድሃኒቶች",
+    "Antihistamines": "የአለርጂ መድሃኒቶች",
+    "Antibiotics": "አንቲባዮቲክስ",
+    "ColdAndFlu": "ጉንፋን እና ፍሉ",
+    "Vitamins": "ቫይታሚኖች",
+    "FirstAid": "የመጀመሪያ እርዳታ",
+    "Painkiller": "የሕመም ማስታገሻ",
+    "Supplements": "ተጨማሪ ምግቦች",
+    "Uncategorized": "ያልተመደበ"
+  },
+  "formValidation": {
+    "required": "እባክዎ ይህንን ቦታ ይሙሉ"
+  }
+}

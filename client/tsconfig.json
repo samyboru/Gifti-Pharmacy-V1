@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true
+  },
+
+  // --- THIS IS THE FINAL AND MOST EXPLICIT FIX ---
+  // We are telling TypeScript the single entry point of our application.
+  // This overrides the 'include' and default scanning behavior.
+  "files": [
+    "src/main.tsx"
+  ],
+  // We no longer need 'include' or 'exclude' when using 'files'.
+
+  "references": [{ "path": "./tsconfig.node.json" }]
+}

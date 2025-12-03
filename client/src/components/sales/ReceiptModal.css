@@ -1,0 +1,12 @@
+/* File Location: client/src/components/sales/ReceiptModal.css */
+.receipt-container{font-family:monospace;color:var(--text-color);padding:1rem}
+.receipt-header,.receipt-footer{text-align:center}
+.receipt-header h2{margin:0;color:var(--accent-color)}
+.receipt-info{display:flex;justify-content:space-between;font-size:.8rem;padding:.75rem 0;border-top:1px dashed var(--border-color);border-bottom:1px dashed var(--border-color);margin:.75rem 0}
+.receipt-items-table{width:100%;border-collapse:collapse;font-size:.9rem}
+.receipt-items-table th,.receipt-items-table td{padding:.25rem 0;border-bottom:1px dotted var(--bg-tertiary)}
+.receipt-items-table thead{text-align:left;border-bottom:1px solid var(--border-color)}
+.receipt-summary{margin-top:1rem;padding-top:.75rem;border-top:1px dashed var(--border-color);display:flex;flex-direction:column;align-items:flex-end}
+.receipt-summary .summary-row{display:flex;justify-content:space-between;width:50%;margin-bottom:.25rem}
+.receipt-summary .total{font-weight:700;font-size:1.1rem;color:var(--text-primary)}
+.receipt-footer{margin-top:1.5rem;font-size:.8rem}
