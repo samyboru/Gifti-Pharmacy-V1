@@ -62,14 +62,14 @@ const notificationService = require('./services/notificationService');
 const reportsRoutes = require('./routes/reports');
 
 // Services
-try {
-    notificationService.generateAlerts();
-    setInterval(() => {
-        notificationService.generateAlerts();
-    }, 3600000);
-} catch (error) {
-    console.log("Notification service warning:", error.message);
-}
+//try {
+  //  notificationService.generateAlerts();
+   // setInterval(() => {
+   //     notificationService.generateAlerts();
+   // }, 3600000);
+//} catch (error) {
+   // console.log("Notification service warning:", error.message);
+//}
 
 // Routes Middleware
 app.use('/api/auth', authRoutes);
