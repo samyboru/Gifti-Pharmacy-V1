@@ -2,12 +2,12 @@
 import { useState, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
 import Modal from '../common/Modal.tsx';
-import api from '../../services/api';
+import api from '../../services/api.ts';
 import toast from 'react-hot-toast';
 import Select from 'react-select';
 import { customReactSelectStyles } from '../../styles/reactSelectStyles.ts';
 // --- THIS PATH IS FIXED ---
-import { PRODUCT_CATEGORIES } from '../../constants';
+import { PRODUCT_CATEGORIES } from '../../constants/index.ts';
 
 type SelectOption = { value: string; label: string };
 

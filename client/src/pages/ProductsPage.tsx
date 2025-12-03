@@ -7,7 +7,7 @@ import { useTranslation } from 'react-i18next'; // <-- Import hook
 import api from '../services/api';
 import { Product } from '../types';
 import { LuSearch, LuPencil, LuTrash2, LuPlus } from 'react-icons/lu';
-import AddProductModal from '../components/products/AddProductModal';
+import AddProductModal from '../components/Products/ProductForm';
 import EditProductModal from '../components/products/EditProductModal'; // No .tsx
 import ConfirmDeleteModal from '../components/common/ConfirmDeleteModal'; // No .tsx
 import toast from 'react-hot-toast';
