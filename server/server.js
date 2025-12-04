@@ -13,9 +13,9 @@ app.use(helmet());
 
 // --- 1. FIXED CORS FOR CLOUD DEPLOYMENT ---
 const allowedOrigins = [
-  'http://localhost:5173',           // Your local frontend
-  'https://my-frontend.vercel.app',  // <--- YOU WILL REPLACE THIS LATER WITH YOUR VERCEL URL
-  undefined                          // Allows Postman/Backend testing
+  'http://localhost:5173',
+  'https://giftii-pharmacy.vercel.app', // <--- PASTE YOUR NEW URL HERE
+  undefined
 ];
 
 app.use(cors({
