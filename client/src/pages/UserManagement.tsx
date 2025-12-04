@@ -133,7 +133,7 @@ const UserManagement = (): JSX.Element => {
           {filteredUsers.map(user => (
             <div key={user.id} className="user-card">
               <div className="user-card-header">
-                <div className={`user-card-avatar status-${user.status}`}>{user.username.charAt(0).toUpperCase()}</div>
+                <div className={`user-card-avatar status-${user.status}`}>{(user?.username || "U").charAt(0)}</div>
                 <div className="user-card-info">
                   <h3 className="user-card-name">{user.username}</h3>
                   <div className="role-badge-container">

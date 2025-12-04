@@ -67,7 +67,9 @@ const Sidebar = ({ onLogoutClick }: SidebarProps) => {
       </nav>
       <div className="sidebar-footer">
         <div className="user-profile">
-          <div className="user-avatar">{user.username.charAt(0).toUpperCase()}</div>
+          <div className="user-avatar">
+  {(user?.username || "U").charAt(0).toUpperCase()}
+</div>
           <div className="user-info">
             <span className="user-name">{user.username}</span>
             <span className="user-role">

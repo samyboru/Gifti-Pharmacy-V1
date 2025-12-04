@@ -5,9 +5,12 @@ import { useAuth } from '../../context/AuthContext';
 const WelcomeBanner = () => {
     const { user } = useAuth();
 
-    // --- THIS IS THE FIX ---
-    // Capitalize the first letter of the username for a nicer display
-    const displayName = user?.username ? user.username.charAt(0).toUpperCase() + user.username.slice(1) : 'User';
+    // Capitalize the first letter of the username safely
+    const safeUsername = user?.username ?? 'User';
+    const displayName =
+        typeof safeUsername === 'string' && safeUsername.length > 0
+            ? safeUsername.charAt(0).toUpperCase() + safeUsername.slice(1)
+            : 'User';
 
     return (
         <div className="welcome-banner">
